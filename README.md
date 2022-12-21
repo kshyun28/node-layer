@@ -72,7 +72,6 @@ sam deploy
 
 ## Resources
 
--   [TypeScript](https://www.typescriptlang.org/)
 -   [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 -   [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
 
