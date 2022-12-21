@@ -1,0 +1,7 @@
+{
+    "name": "node-layer",
+    "version": "1.0.0",
+    "description": "node modules layers for serverless applications.",
+    "author": "Jasper Gabriel",
+    "license": "MIT"
+}

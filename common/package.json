@@ -1,0 +1,14 @@
+{
+  "name": "common-node-layer",
+  "version": "1.0.0",
+  "dependencies": {
+    "@aws-lambda-powertools/logger": "^1.5.0",
+    "@aws-lambda-powertools/metrics": "^1.5.0",
+    "@aws-lambda-powertools/tracer": "^1.5.0",
+    "@middy/core": "^4.0.0",
+    "joi": "^17.7.0",
+    "node-fetch": "^2.6.7",
+    "uuid": "^9.0.0",
+    "zod": "^3.19.1"
+  }
+}

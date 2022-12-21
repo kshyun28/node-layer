@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+    node-layers
+
+    SAM Template for node module layers
+
+Resources:
+    CommonNodeModulesLayer:
+        Type: AWS::Serverless::LayerVersion
+        Properties:
+            LayerName: CommonNodeModulesLayer
+            Description: Shared common node modules dependencies
+            CompatibleRuntimes:
+                - nodejs16.x
+            ContentUri: ./common
+            RetentionPolicy: Retain
+        Metadata:
+            BuildMethod: nodejs16.x
+            BuildArchitecture: arm64
+
+    EvmNodeModulesLayer:
+        Type: AWS::Serverless::LayerVersion
+        Properties:
+            LayerName: EvmLayer
+            Description: Shared evm node modules dependencies
+            CompatibleRuntimes:
+                - nodejs16.x
+            ContentUri: ./evm
+            RetentionPolicy: Retain
+        Metadata:
+            BuildMethod: nodejs16.x
+            BuildArchitecture: arm64

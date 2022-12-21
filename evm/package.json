@@ -1,0 +1,9 @@
+{
+    "name": "evm-layer",
+    "version": "1.0.0",
+    "dependencies": {
+        "@truffle/hdwallet-provider": "^2.1.2",
+        "ethereum-input-data-decoder": "^0.4.2",
+        "web3": "^1.8.0"
+    }
+}
